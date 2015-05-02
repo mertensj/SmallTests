@@ -14,4 +14,4 @@ CFLAGS += $(shell $(PKG_CONFIG) --cflags $(PKG_DEPS))
 LDLIBS += $(shell $(PKG_CONFIG) --libs $(PKG_DEPS)) -lm
 
 clean:
-	rm t01 t02
+	rm t01 t02 t03
